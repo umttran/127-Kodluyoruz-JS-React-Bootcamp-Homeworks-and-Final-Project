@@ -1,0 +1,27 @@
+.user-header {
+  display: flex;
+  align-items: center;
+  padding: 24px 48px 24px 36px;
+  color: #000;
+  background-color: #F3F3F3;
+}
+
+.user-header-pp {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  background-color: rgb(185, 182, 182);
+  margin-right: 24px;
+}
+
+.user-header-name {
+  flex: 1;
+}
+
+.user-header-options:after{
+  content: "";
+  display: inline-block;
+  width: 16px;
+  border-bottom: 4px dotted #000;
+  cursor: pointer;
+}

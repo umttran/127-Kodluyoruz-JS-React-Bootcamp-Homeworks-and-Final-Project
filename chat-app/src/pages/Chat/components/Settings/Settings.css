@@ -1,0 +1,48 @@
+.settings {
+  color: pink;
+  padding: 10px;
+}
+
+.settings-content {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.dark-mode {
+  width: 48px;
+  height: 48px;
+  background-color: #D6D6D6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dark-mode-icon {
+  content: url("./assets/dark-mode.svg");
+}
+
+.log-out {
+  width: 48px;
+  height: 48px;
+  background-color: #D6D6D6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.log-out-icon {
+  content: url("./assets/log-out-left.svg");
+  position: absolute;
+  left: 12px;
+}
+
+.log-out::after {
+  content: url("./assets/log-out-right.svg");
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+}
